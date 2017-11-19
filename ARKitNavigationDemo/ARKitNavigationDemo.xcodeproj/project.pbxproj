@@ -928,7 +928,7 @@
 				DEVELOPMENT_TEAM = CWK29L7ZPT;
 				INFOPLIST_FILE = ARKitNavigationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bensmithinc.arkitnav;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bensmithinc.-ArcheologicalAR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -944,7 +944,7 @@
 				DEVELOPMENT_TEAM = CWK29L7ZPT;
 				INFOPLIST_FILE = ARKitNavigationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bensmithinc.arkitnav;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bensmithinc.-ArcheologicalAR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

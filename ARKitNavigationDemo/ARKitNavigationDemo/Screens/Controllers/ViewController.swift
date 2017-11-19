@@ -66,21 +66,13 @@ extension ViewController: Controller {
     
 //    let lineSegments: [LineSegment] = []
     private func setupNavigation() {
-//        AcheologicalSitesService.parseArcheogicalSites(completion: { (segments) in
-//            for segment in segments {
-//                self.addSphere(for: segment.end)
-//                //                    self.addSphere(for: segment.start)
-//                
-//            }
-//            self.done = true
-//        })
-        
-        WayFindingSchipholService.parseRout { (segments) in
+        AcheologicalSitesService.parseArcheogicalSites(completion: { (segments) in
             for segment in segments {
-                self.addSphere(for: segment.end)
+                self.addSphere(for: segment.end)                
             }
             self.done = true
-        }
+        })
+        
     }
     
     private func setupNavigationWithLocationData() {
